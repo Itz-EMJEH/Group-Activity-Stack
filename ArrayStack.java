@@ -2,9 +2,9 @@
 package arraystack;
 
 /* Description: 
-Programmed by: <Alschier Dimo> <BSIT> <48079> <DSA>
+Programmed by: <Alschier Dimo, Wing Hams Abiso> <BSIT> <48079> <DSA>
 Last Modified: <10/18/26>
-Version: <version 1>
+Version: <version 1.2>
 [Acknowledgements: geeksforgeeks.org/dsa/stack-data-structure/
                    geeksforgeeks.org/dsa/implement-stack-using-array/
                    Claude sonnet 5.5 (Anthropic)
@@ -24,19 +24,30 @@ public class ArrayStack {
     }
 
     // add a value on top; returns false if the stack is full
-    public boolean push(int value) {
-       
+     public boolean push(int value) {
+        if (isFull()) {
+            return false;
+        }
+        data[top] = value;
+        top++;
+        return true;
     }
 
     // remove and return the top value (check isEmpty() first)
     public int pop() {
-       
-       
+        if (isEmpty()) {
+            throw new IllegalStateException("Stack Underflow: stack is empty");
+        }
+        top--;
+        return data[top];
     }
 
     // return the top value without removing it (check isEmpty() first)
     public int peek() {
-       
+        if (isEmpty()) {
+            throw new IllegalStateException("Stack is empty");
+        }
+        return data[top - 1];
     }
 
     public void clear() {
@@ -61,6 +72,10 @@ public class ArrayStack {
 
     // copy of the current elements, bottom first, top last
     public int[] toArray() {
-       
+        int[] copy = new int[top];
+        for (int i = 0; i < top; i++) {
+            copy[i] = data[i];
+        }
+        return copy;
     }
 }
