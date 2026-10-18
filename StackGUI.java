@@ -1,10 +1,10 @@
 
 package arraystack;
 
-/* Description: StackGUI based on the original design but more simpler, has no functionality yet, but extends another class file.
-Programmed by: <Mark Joel C. Dominguito> <BSIT> <48079> <DSA>
-Last Modified: <10/11/26>
-Version: <version 1>
+/* Description: StackGUI based on the original design but more simpler, now has push and pop functionality yet, but extends another class file.
+Programmed by: <Mark Joel C. Dominguito, Allexies Kaye P. Aday> <BSIT> <48079> <DSA>
+Last Modified: <10/18/26>
+Version: <version 1.2>
 [Acknowledgements: geeksforgeeks.org/java/introduction-to-java-swing/]
                    geeksforgeeks.org/java/java-awt-tutorial/ 
                    BroCode Java Lambda λ
@@ -73,12 +73,36 @@ public class StackGUI extends JFrame {
 
     // push
     private void doPush() {
-        
+        String text = inputField.getText().trim();
+        if (text.isEmpty()) {
+            statusLabel.setText("Enter a value first");
+            return;
+        }
+        if (stack.isFull()) {
+            statusLabel.setText("Stack Overflow: stack is full");
+            return;
+        }
+        try {
+            int value = Integer.parseInt(text);
+            stack.push(value);
+            statusLabel.setText("Pushed " + value);
+            inputField.setText("");
+            updateView();
+        } catch (NumberFormatException ex) {
+            statusLabel.setText("Invalid input: enter an integer");
+        }
+        inputField.requestFocus();
     }
 
     // pop
     private void doPop() {
-       
+        if (stack.isEmpty()) {
+            statusLabel.setText("Stack Underflow: stack is empty");
+            return;
+        }
+        int value = stack.pop();
+        statusLabel.setText("Popped " + value);
+        updateView();
     }
 
     // peek
