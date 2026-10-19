@@ -40,3 +40,21 @@ arraystack/
 ├── ArrayStack.java    (stack data structure component)
 ├── StackGUI.java      (GUI component and event handling)
 └── StackPanel.java    (2D graphical rendering component)
+
+## Stack Implementation
+
+The stack is implemented as a bounded, array-based data structure in `ArrayStack.java` using an integer array (`int[] data`) with a fixed capacity of 10 elements. The `top` variable tracks the index of the next free slot and represents the current size of the stack.
+
+### Method Details
+
+| Method | Description |
+| :--- | :--- |
+| `push(int value)` | Saves a value at `data[top]` and increments `top` by 1. Returns `false` if the stack is full (`isFull()`). |
+| `pop()` | Decrements `top` by 1 and returns `data[top]`. Throws `IllegalStateException` on stack underflow if empty. |
+| `peek()` | Returns `data[top - 1]` without modifying `top`. Throws `IllegalStateException` if empty. |
+| `clear()` | Resets `top` to `0`, effectively clearing all elements. |
+| `isEmpty()` | Returns `true` if `top == 0`. |
+| `isFull()` | Returns `true` if `top == capacity`. |
+| `size()` | Returns the current element count (`top`). |
+| `getCapacity()` | Returns the maximum capacity (`capacity`). |
+| `toArray()` | Returns a copy of the active stack elements from bottom to top so `StackPanel` can render them safely without modifying internal data. |
