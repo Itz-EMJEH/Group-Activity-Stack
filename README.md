@@ -58,3 +58,13 @@ The stack is implemented as a bounded, array-based data structure in `ArrayStack
 | `size()` | Returns the current element count (`top`). |
 | `getCapacity()` | Returns the maximum capacity (`capacity`). |
 | `toArray()` | Returns a copy of the active stack elements from bottom to top so `StackPanel` can render them safely without modifying internal data. |
+
+## UI Design 
+
+<img width="1019" height="636" alt="Screenshot 2026-10-19 145828" src="https://github.com/user-attachments/assets/e5f668af-515f-4732-9d3a-6edc4e22a44a" />
+
+## Program Structure
+
+<img width="803" height="633" alt="Screenshot 2026-10-19 145918" src="https://github.com/user-attachments/assets/73f71b7f-81cd-49ac-a6f6-f1ee485433e2" />
+
+
