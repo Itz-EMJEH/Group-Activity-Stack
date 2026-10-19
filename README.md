@@ -22,3 +22,21 @@ The program is a Java Swing application designed to visually represent an array-
 * **Check Stack:** Reports whether the current stack is empty or displays its size.
 * **Random:** Clears the stack and generates a random number of elements between 1 and the maximum capacity, with integer values between 1 and 100.
 * **Status Messages:** Displays contextual notifications including `STACK UNDERFLOW`, `STACK OVERFLOW`, `STACK EMPTY`, and `INVALID INPUT`.
+
+## Requirements
+* Java Development Kit (JDK) 11 or later.
+* No external libraries required, using only built-in `javax.swing`, `java.awt`, and `java.util`.
+
+## How to Run the Program
+1. Navigate to the folder containing your source files.
+2. Compile the components:
+   ```bash
+   javac arraystack/ArrayStack.java arraystack/StackGUI.java arraystack/StackPanel.java
+   ```bash
+java arraystack.StackGUI
+
+```text
+arraystack/
+├── ArrayStack.java    (stack data structure component)
+├── StackGUI.java      (GUI component and event handling)
+└── StackPanel.java    (2D graphical rendering component)
