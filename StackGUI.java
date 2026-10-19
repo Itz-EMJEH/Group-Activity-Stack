@@ -3,8 +3,8 @@ package arraystack;
 
 /* Description: StackGUI based on the original design but more simpler, now has push and pop functionality yet, but extends another class file.
 Programmed by: <Mark Joel C. Dominguito, Allexies Kaye P. Aday, Alea Rawan A. Barrida> <BSIT> <48079> <DSA>
-Last Modified: <10/18/26>
-Version: <version 1.2>
+Last Modified: <10/19/26>
+Version: <version 1.3>
 [Acknowledgements: geeksforgeeks.org/java/introduction-to-java-swing/]
                    geeksforgeeks.org/java/java-awt-tutorial/ 
                    BroCode Java Lambda λ
