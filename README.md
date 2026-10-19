@@ -32,7 +32,7 @@ The program is a Java Swing application designed to visually represent an array-
 2. Compile the components:
    ```bash
    javac arraystack/ArrayStack.java arraystack/StackGUI.java arraystack/StackPanel.java
-   ```bash
+   
 java arraystack.StackGUI
 
 ```text
