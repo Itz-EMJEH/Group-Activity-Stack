@@ -1,2 +1,24 @@
-# Group-Activity-Stack
-A group activity demonstrating stack 
+
+# Stack Visualizer - Array-Based Bounded Stack
+
+## Group Name
+Group 2 (CN 48079)
+
+## Group Members
+* Abiso, Wing Hams J. 
+* Aday, Allexies Kaye P.
+* Barrida, Alea Rawan A.
+* Dimo, Alschier 
+* Dominguito, Mark Joel C.
+
+## Description of the Program
+The program is a Java Swing application designed to visually represent an array-based stack as a 2D drawing. Each stack element is displayed as a rectangular block where the newest element appears at the top, and the top block is clearly indicated. The GUI communicates exclusively through the stack component's methods to ensure the visualization accurately reflects the true state of the stack.
+
+## Features
+* **Push:** Accepts an integer input value and pushes it onto the stack.
+* **Pop:** Removes only the top element from the stack.
+* **Peek:** Highlights and displays the top element without removing or modifying it.
+* **Clear:** Empties the entire stack.
+* **Check Stack:** Reports whether the current stack is empty or displays its size.
+* **Random:** Clears the stack and generates a random number of elements between 1 and the maximum capacity, with integer values between 1 and 100.
+* **Status Messages:** Displays contextual notifications including `STACK UNDERFLOW`, `STACK OVERFLOW`, `STACK EMPTY`, and `INVALID INPUT`.
