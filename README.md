@@ -40,7 +40,7 @@ arraystack/
 ├── ArrayStack.java    (stack data structure component)
 ├── StackGUI.java      (GUI component and event handling)
 └── StackPanel.java    (2D graphical rendering component)
-
+```
 ## Stack Implementation
 
 The stack is implemented as a bounded, array-based data structure in `ArrayStack.java` using an integer array (`int[] data`) with a fixed capacity of 10 elements. The `top` variable tracks the index of the next free slot and represents the current size of the stack.
