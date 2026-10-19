@@ -14,7 +14,7 @@ Version: <version 1.2>
 public class ArrayStack {
 
     private int[] data;
-    private int top;        // index of the next free slot and also the current size
+    private int top;        // index of the next free slot; also the current size
     private int capacity;
 
     public ArrayStack(int capacity) {
@@ -24,7 +24,7 @@ public class ArrayStack {
     }
 
     // add a value on top; returns false if the stack is full
-     public boolean push(int value) {
+    public boolean push(int value) {
         if (isFull()) {
             return false;
         }
@@ -59,11 +59,11 @@ public class ArrayStack {
     }
 
     public boolean isFull() {
-        
+        return top == capacity;
     }
 
     public int size() {
-       
+        return top;
     }
 
     public int getCapacity() {
