@@ -22,6 +22,7 @@ public class StackGUI extends JFrame {
     private JTextField inputField = new JTextField();
     private JLabel statusLabel = new JLabel("Ready");
     private JLabel sizeLabel = new JLabel();
+    private Random random = new Random();
 
     public static void main(String[] args) {
         StackGUI window = new StackGUI();
@@ -119,7 +120,7 @@ public class StackGUI extends JFrame {
     }
 
     // clear
-     private void doClear() {
+    private void doClear() {
         stack.clear();
         statusLabel.setText("Stack cleared");
         updateView();
