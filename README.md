@@ -91,9 +91,9 @@ The stack is implemented as a bounded, array-based data structure in `ArrayStack
 * **Extent of Use:** Substantial drafting
 * **Verified by a Human Author:** The group members reviewed each of respected parts assigned, modified and successfully ran the code
 * **Why and How AI Was Used:** Used to understand implementation patterns, resolve syntax questions, and accelerate project completion
-* **Estimated Percentage of Work Assisted by AI:** 30%
-* **Changes Made to AI-Generated Output:** Modified core logic functions and layout bindings to meet specific laboratory constraints
-* **What We Learned:** Learned that AI acts as a guiding tool rather than the controller of the project, requiring human verification and logical ownership
+* **Estimated Percentage of Work Assisted by AI:** 30~35%
+* **Changes Made to AI-Generated Output:** Modified core logic functions, proper connection of methods and layout bindings to meet specific laboratory constraints
+* **What We Learned:** Learned that AI is used as a guide and help, not to replace actual human intelligence.
 
 ## Contributors 
 
