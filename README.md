@@ -84,6 +84,23 @@ The stack is implemented as a bounded, array-based data structure in `ArrayStack
 ### Clear
 <img width="640" height="622" alt="clear" src="https://github.com/user-attachments/assets/0839b25a-6842-4b31-8212-8830afb28562" />
 
+## AI Disclosure
+* **AI Tool and Version:** Claude Sonnet 5.5 (Anthropic)
+* **Task Performed:** Code drafting for `ArrayStack.java`, `StackPanel.java`, and `StackGUI.java`
+* **Prompts Used:** "Draft me a code using this activity and explain line by line"
+* **Extent of Use:** Substantial drafting
+* **Verified by a Human Author:** The group members reviewed each of respected parts assigned, modified and successfully ran the code
+* **Why and How AI Was Used:** Used to understand implementation patterns, resolve syntax questions, and accelerate project completion
+* **Estimated Percentage of Work Assisted by AI:** 30%
+* **Changes Made to AI-Generated Output:** Modified core logic functions and layout bindings to meet specific laboratory constraints
+* **What We Learned:** Learned that AI acts as a guiding tool rather than the controller of the project, requiring human verification and logical ownership
 
+## Contributors 
 
-
+| Member | Contribution |
+| :--- | :--- |
+| Abiso, Wing Hams J. | ArrayStack.java, StackPanel.java, README and Screenshots |
+| Aday, Allexies Kaye P. | UI Design, Class Diagram, README and StackGUI.java |
+| Barrida, Alea Rawan A. | StackGUI.java, README, Test cases and screenshots |
+| Dimo, Alschier | StackPanel.java, ArrayStack, and README |
+| Dominguito, Mark Joel C. | StackGUI, README, Documentation |
