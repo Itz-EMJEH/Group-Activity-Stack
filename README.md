@@ -67,4 +67,23 @@ The stack is implemented as a bounded, array-based data structure in `ArrayStack
 
 <img width="803" height="633" alt="Screenshot 2026-10-19 145918" src="https://github.com/user-attachments/assets/73f71b7f-81cd-49ac-a6f6-f1ee485433e2" />
 
+### Sceenshots
+
+## Push
+<img width="642" height="627" alt="push 40" src="https://github.com/user-attachments/assets/5feed9b1-d4d6-47fe-bb5d-047473ad6ff2" />
+
+## Pop
+<img width="642" height="631" alt="pop 40" src="https://github.com/user-attachments/assets/c6765df7-ec09-4c38-b82e-bb22f7722f98" />
+
+## Peek
+<img width="637" height="628" alt="peek" src="https://github.com/user-attachments/assets/f1e09af7-1041-41df-bbd9-ee013ccb6468" />
+
+## Random
+<img width="643" height="631" alt="push random" src="https://github.com/user-attachments/assets/ed9d9cca-1a52-4f4e-95c2-0102ab930801" />
+
+## Clear
+<img width="640" height="622" alt="clear" src="https://github.com/user-attachments/assets/0839b25a-6842-4b31-8212-8830afb28562" />
+
+
+
 
